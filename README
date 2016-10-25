@@ -1,10 +1,8 @@
-In file eeg28.mat there are 2 cell arrays:
-session_raw_fp1_fp3
-session_raw_fp2_fp4
-They contain eeg recordings of 28 subjects from FP1_FP3 and FP2_FP4 pairs of electrodes, taken with 250Hz sampling frequency.
-Both has 5 cells.
-Each cell corresponds sessions with number of samples: 
-1) rest1 - 75000 samples
+In file data.mat there are 5 cell arrays:
+They contain eeg recordings of 51 subjects from FP1_FP3 and FP2_FP4 pairs of electrodes, taken with 250Hz sampling frequency.
+
+Each cell corresponds sessions with number of samples per subject: 
+1) rest 1 - 75000 samples
 2) IQ test - 150 000 samples, 
 3) rest 2 - 75 000 samples, 
 4) reading passage - 75 000 samples, 

@@ -1,9 +1,2 @@
-In file data.mat there are 5 cell arrays:
-They contain eeg recordings of 51 subjects from FP1_FP3 and FP2_FP4 pairs of electrodes, taken with 250Hz sampling frequency.
+In file data.mat there is 2 cell structure. Both of the cells contain the inter-blink intervals of all 27 subjects, for IQ session and Rest session respectively.
 
-Each cell corresponds sessions with number of samples per subject: 
-1) rest 1 - 75000 samples
-2) IQ test - 150 000 samples, 
-3) rest 2 - 75 000 samples, 
-4) reading passage - 75 000 samples, 
-5) memory test - 75 000 samples
